@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ai-app-compiler
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NVIDIA_API_KEY
+        sync: false
+      - key: NODE_ENV
+        value: production
