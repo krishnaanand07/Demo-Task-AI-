@@ -1,0 +1,82 @@
+[
+  {
+    "type": "standard",
+    "prompt": "Build a simple to-do list app with users, tasks, and deadlines."
+  },
+  {
+    "type": "standard",
+    "prompt": "Create an e-commerce platform with products, categories, a shopping cart, and orders."
+  },
+  {
+    "type": "standard",
+    "prompt": "I need a blog engine where authors can write posts, and visitors can leave comments."
+  },
+  {
+    "type": "standard",
+    "prompt": "Build a CRM with login, contacts, dashboard, role-based access, and premium plan with payments. Admins can see analytics."
+  },
+  {
+    "type": "standard",
+    "prompt": "Create a real estate directory with property listings, agents, and lead capture forms."
+  },
+  {
+    "type": "standard",
+    "prompt": "A fitness tracking app where users log workouts, meals, and track their weight over time."
+  },
+  {
+    "type": "standard",
+    "prompt": "A job board with employers posting jobs and candidates submitting resumes."
+  },
+  {
+    "type": "standard",
+    "prompt": "A doctor appointment booking system with patient records and doctor schedules."
+  },
+  {
+    "type": "standard",
+    "prompt": "An event management platform selling tickets with QR codes."
+  },
+  {
+    "type": "standard",
+    "prompt": "A recipe sharing app with ingredients, steps, and user ratings."
+  },
+  {
+    "type": "edge_case",
+    "prompt": "Build an app."
+  },
+  {
+    "type": "edge_case",
+    "prompt": "Create a secure banking app that doesn't use passwords or any authentication."
+  },
+  {
+    "type": "edge_case",
+    "prompt": "I want a system with users and admins. Ensure users can delete everything. Admins can do nothing."
+  },
+  {
+    "type": "edge_case",
+    "prompt": "Make a social network."
+  },
+  {
+    "type": "edge_case",
+    "prompt": "Build a data dashboard, but with no database and no API."
+  },
+  {
+    "type": "edge_case",
+    "prompt": "Make an app to track my cats. I also need an enterprise ERP system."
+  },
+  {
+    "type": "edge_case",
+    "prompt": "Design a system."
+  },
+  {
+    "type": "edge_case",
+    "prompt": "Something with forms."
+  },
+  {
+    "type": "edge_case",
+    "prompt": "A completely offline web app that requires constant server sync."
+  },
+  {
+    "type": "edge_case",
+    "prompt": "Build a payment system that never charges money."
+  }
+]
