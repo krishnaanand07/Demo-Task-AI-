@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npx tsc && cd frontend && npm install && npm run build",
+    "build": "npx tsc && cd frontend && npm install && npx vite build --outDir ../public --emptyOutDir",
     "start": "node dist/index.js",
     "dev": "npx ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
