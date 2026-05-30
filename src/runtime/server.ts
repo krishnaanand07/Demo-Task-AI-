@@ -100,7 +100,7 @@ export function startServer(port: number = parseInt(process.env.PORT || '3000'))
   });
 
   // SPA catch-all: serve index.html for any non-API route
-  app.get('*', (req, res) => {
+  app.get('/{*splat}', (req, res) => {
     res.sendFile(path.join(__dirname, '../../public/index.html'));
   });
 
